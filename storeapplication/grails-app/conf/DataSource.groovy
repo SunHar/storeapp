@@ -17,8 +17,8 @@ environments {
     development {dataSource {
             dbCreate = "create" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost:3306/store?useUnicode=yes&characterEncoding=UTF-8"
-            username = "admin"
-            password = "Qwer12#\$"
+            username = "root"
+            password = "root"
         }
      
 	}
@@ -26,16 +26,16 @@ environments {
        dataSource {
             dbCreate = "create" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost:3306/store?useUnicode=yes&characterEncoding=UTF-8"
-            username = "admin"
-            password = "Qwer12#\$"
+            username = "root"
+            password = "root"
         }
     }
     production {
 		dataSource {
 			dbCreate = "update"
 			url = "jdbc:mysql://localhost:3306/store?useUnicode=yes&characterEncoding=UTF-8"
-			username = "admin"
-			password = "Qwer12#\$"
+            username = "root"
+            password = "root"
 		}
 	}
 }
