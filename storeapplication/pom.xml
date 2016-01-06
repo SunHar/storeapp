@@ -31,6 +31,19 @@
             <version>${grails.version}</version>
             <scope>test</scope>
         </dependency>
+        
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.2.4.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>4.0.7.RELEASE</version>
+		</dependency>
+
 
         <dependency>
             <groupId>org.grails</groupId>
